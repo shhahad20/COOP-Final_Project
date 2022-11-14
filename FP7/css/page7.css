@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap");
+a {
+  text-decoration: none;
+}
+
+body {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+  height: 100vh;
+  background-image: url("/images/Asset 3.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #1D2160;
+  font-family: 'Poppins';
+  width: 100%;
+}
+
+.grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  padding: 20px;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+.grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 0;
+}
+
+#En .BorderEn #Enp {
+  color: #ecf0f1;
+  font-size: 17px;
+  margin-top: 3%;
+  border: 2px solid #ecf0f1;
+  width: 55px;
+  height: 25px;
+  border-radius: 15px;
+  float: left;
+  margin-left: -3%;
+}
+
+#En .BorderEn img {
+  width: 25px;
+  padding-left: 3%;
+  margin-top: 4%;
+  margin-left: -20%;
+}
+
+#En .BorderEn .bell {
+  margin-top: -5%;
+  margin-left: 5%;
+}
+
+#En .BorderEn .info {
+  margin-left: 0;
+  padding-left: 15px;
+  background-color: #1D2160;
+}
+
+#En .BorderEn .what {
+  padding-left: 15px;
+  background-color: #1D2160;
+  margin-left: 1%;
+}
+
+#Logo .Logoimg {
+  margin-left: -19%;
+}
+
+#Logo .Logoimg img {
+  display: block;
+  margin: auto;
+  width: 190px;
+}
+
+#Login .Loginimgs img {
+  width: 28px;
+  float: right;
+  padding-right: 3%;
+  margin-top: 2%;
+}
+
+#HeroImg {
+  -ms-grid-column-span: 3;
+      grid-column-end: span 3;
+}
+
+#HeroImg .cards {
+  background-color: #ecf0f1;
+  padding-top: 4%;
+  padding-bottom: 0;
+  width: 100%;
+  border-radius: 50px;
+  display: block;
+  margin: auto;
+}
+
+#HeroImg .cards img {
+  width: 70%;
+}
+
+#HeroImg .Heroimg h3 {
+  font-size: 30px;
+  display: block;
+  margin: auto;
+  margin-top: 5%;
+  color: #ecf0f1;
+  font-weight: 500;
+  padding-bottom: 3%;
+}
+
+#About {
+  -ms-grid-column-span: 3;
+      grid-column-end: span 3;
+}
+
+#white {
+  margin-top: 15%;
+}
+
+#white p {
+  font-size: 20px;
+  background-color: #ecf0f1;
+  width: 15%;
+  display: block;
+  margin: auto;
+  padding: 0.4%;
+  border-radius: 50px;
+}
+
+#white p a {
+  color: #1D2160;
+}
+/*# sourceMappingURL=page7.css.map */

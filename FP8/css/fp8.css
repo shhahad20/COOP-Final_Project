@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap");
+a {
+  text-decoration: none;
+}
+
+body {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+  height: 100vh;
+  background-image: url("/images/Asset 3.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #1D2160;
+  font-family: 'Poppins';
+  width: 100%;
+}
+
+.grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  padding: 20px;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+.grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 0;
+}
+
+#En .BorderEn #Enp {
+  color: #ecf0f1;
+  font-size: 17px;
+  margin-top: 3%;
+  border: 2px solid #ecf0f1;
+  width: 55px;
+  height: 25px;
+  border-radius: 15px;
+  float: left;
+  margin-left: -3%;
+}
+
+#En .BorderEn img {
+  width: 25px;
+  padding-left: 3%;
+  margin-top: 4%;
+  margin-left: -20%;
+}
+
+#En .BorderEn .bell {
+  margin-top: -5%;
+  margin-left: 5%;
+}
+
+#En .BorderEn .info {
+  margin-left: 0;
+  padding-left: 15px;
+  background-color: #1D2160;
+}
+
+#En .BorderEn .what {
+  padding-left: 15px;
+  background-color: #1D2160;
+  margin-left: 1%;
+}
+
+#Logo .Logoimg {
+  margin-left: -19%;
+}
+
+#Logo .Logoimg img {
+  display: block;
+  margin: auto;
+  width: 190px;
+}
+
+#Login .Loginimgs img {
+  width: 28px;
+  float: right;
+  padding-right: 3%;
+  margin-top: 2%;
+}
+
+#HeroImg {
+  -ms-grid-column-span: 3;
+      grid-column-end: span 3;
+}
+
+#HeroImg .Heroimg h3 {
+  font-size: 25px;
+  display: block;
+  margin: auto;
+  margin-top: 5%;
+  color: #ecf0f1;
+  font-weight: 500;
+  margin-right: -2%;
+}
+
+#About {
+  -ms-grid-column-span: 3;
+      grid-column-end: span 3;
+}
+
+#white .list {
+  margin-top: 5%;
+}
+
+#white .list li {
+  list-style-type: none;
+}
+
+#white .list .l1, #white .list .l2, #white .list .l3, #white .list .l4, #white .list .l5 {
+  margin-left: -2%;
+  font-size: 20px;
+  margin-top: 1%;
+  border: 2px solid #ecf0f1;
+  width: 13%;
+  height: 20px;
+  padding: 1%;
+  padding-top: 0.3%;
+  border-radius: 40px;
+  background-color: #ecf0f1;
+}
+
+#white .list a {
+  color: #1D2160;
+}
+
+#white2 {
+  margin-top: -1%;
+  margin-left: 1.5%;
+}
+
+#white2 p {
+  font-size: 20px;
+  width: 13%;
+  padding: 1%;
+  padding-top: 0.3%;
+  border-radius: 50px;
+}
+
+#white2 p a {
+  color: #ecf0f1;
+}
+
+#history {
+  background-color: #ecf0f1;
+  padding: 3% 7%;
+  width: 40%;
+  border-radius: 50px;
+  margin-top: -20%;
+  margin-left: 3%;
+}
+/*# sourceMappingURL=fp8.css.map */
